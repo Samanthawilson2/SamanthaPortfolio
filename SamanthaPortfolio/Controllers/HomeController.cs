@@ -13,12 +13,26 @@ namespace SamanthaPortfolio.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult AboutMe()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Projects()
+        {
+            return View();
+        }
+
+        public IActionResult Resume()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        public IActionResult Index()
         {
             return View();
         }
